@@ -1,6 +1,8 @@
 # Astro + daisyUI Integration
 
-This is a mini project demonstrating the integration of [Astro](https://docs.astro.build/) with [daisyUI](https://daisyui.com/docs/). Explore the live deployment [here](https://spike-daisyui-astro.vercel.app/).
+This is a mini project demonstrating the integration of [Astro](https://docs.astro.build/) with [daisyUI](https://daisyui.com/docs/). 
+
+Explore the live deployment [here](https://spike-daisyui-astro.vercel.app/).
 
 ## Features
 
