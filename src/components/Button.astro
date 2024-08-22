@@ -1,0 +1,29 @@
+---
+import { Button as DaisyButton } from "./atoms/Button";
+import { PlusIcon } from "./atoms/PlusIcon";
+---
+
+<div>
+  <span class="text-blue-600 text-2xl font-bold">Button</span>
+
+  <div class="grid grid-cols-3 gap-4 mt-6 !text-black">
+    <DaisyButton client:load variant="primary">Primary</DaisyButton>
+
+    <DaisyButton client:load variant="primary">Primary <PlusIcon /></DaisyButton
+    >
+
+    <DaisyButton client:load variant="primary" disabled>
+      Primary Disabled
+    </DaisyButton>
+
+    <DaisyButton client:load variant="primary" disabled
+      >Primary disabled <PlusIcon /></DaisyButton
+    >
+
+    <DaisyButton client:load variant="secondary"> Secondary </DaisyButton>
+
+    <DaisyButton client:load variant="secondary">
+      Secondary <PlusIcon />
+    </DaisyButton>
+  </div>
+</div>

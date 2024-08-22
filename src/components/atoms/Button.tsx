@@ -16,11 +16,11 @@ export const Button: React.FC<ButtonProps> = ({
   switch (variant) {
     case "primary":
       buttonClasses =
-        "flex h-6 w-max items-center rounded-full bg-green-600 px-2 py-1 text-sm font-medium text-white hover:bg-green-700 active:bg-green-800 disabled:bg-gray-400";
+        "flex gap-2 h-6 w-max items-center rounded-full bg-green-600 px-2 py-1 text-sm font-medium text-white hover:bg-green-700 active:bg-green-800 disabled:bg-gray-400";
       break;
     case "secondary":
       buttonClasses =
-        "flex h-6 w-max items-center rounded-full border border-green-600 px-2 py-1 text-sm font-medium text-green-600 bg-white hover:bg-custom-green-hover active:bg-custom-green-pressed disabled:border-gray-400 disabled:bg-inherit disabled:text-gray-400";
+        "flex gap-2 h-6 w-max items-center rounded-full border border-green-600 px-2 py-1 text-sm font-medium text-green-600 bg-white hover:bg-custom-green-hover active:bg-custom-green-pressed disabled:border-gray-400 disabled:text-gray-400";
       break;
     case "icon":
       buttonClasses =

@@ -1,9 +1,24 @@
 ---
+import Button from "../components/Button.astro";
+import Checkbox from "../components/Checkbox.astro";
+import Input from "../components/Input.astro";
+import Select from "../components/Select.astro";
+import Switch from "../components/Switch.astro";
+import Typography from "../components/Typography.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main></main>
+  <main>
+    <div class="flex flex-col gap-8">
+      <Typography />
+      <Button />
+      <Checkbox />
+      <Switch />
+      <Select />
+      <Input />
+    </div>
+  </main>
 </Layout>
 
 <style>
