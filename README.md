@@ -10,17 +10,18 @@ This is a mini project demonstrating the integration of [Astro](https://docs.ast
 ## Getting Started
 
 1. **Clone the repository:**
-    ```sh
+```sh
     git clone <repository-url>
     cd <repository-directory>
+```
     
 2. **Install dependencies:**
    
-sh
+```sh
     npm install
-    
+```
 3. **Run the development server:**
    
-sh
+```sh
     npm run dev
-    
+```    
